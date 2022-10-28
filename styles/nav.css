@@ -1,0 +1,132 @@
+
+
+/* commom nav wrapper */
+.navigation-wrapper {
+    /*height wrapper*/
+    background-color: black;
+    color: aliceblue;
+    /*flexbox container*/
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding: 60px 100px;
+    margin: 0px;
+}
+
+/* righyt-colunm */
+.navigation-wrapper>.left-column{
+    display: flex;
+    align-items: center;  
+}
+
+.navigation-wrapper>.left-column>.icon{
+    margin-right: 15px;
+}
+
+.navigation-wrapper>.left-column>.icon i {
+    font-size: 2em;
+}
+
+.navigation-wrapper>.left-column > .contact-hours-wrapper{
+display: grid;
+grid-template-columns: 1fr; 
+grid-gap: 10px;
+
+}
+
+.left-column>.contact-hours-wrapper > .hours {
+    font-family: 'Roboto Slab', serif;
+    color: #858585;
+    font-size: .08em;
+}
+
+.links-wrapper .nav-link a {
+    font-family: 'Roboto Slab', serif;
+   color: rgb(255, 255, 255); 
+   font-size:1rem;
+    
+}
+
+/* center-colunm */
+.navigation-wrapper> .center-column{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 42px;
+    width: 500px;
+}
+
+.navigation-wrapper > .center-column > .banner-image {
+    display: flex;
+    justify-content: center;
+}
+
+.navigation-wrapper > .center-column > .banner-image img{
+    width: 216px;
+    height: 100%;
+}
+
+.links-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.links-wrapper > .nav-link {
+    width: 70px;
+    text-align: center;
+}
+
+/* address-wrapper-right-colunm */
+.navigation-wrapper > .right-column{
+    display: flex;
+    align-items: center;
+}
+
+.navigation-wrapper > .right-column > #address-wrapper{
+    font-family: 'Roboto Slab', serif;
+    color: rgb(255, 255, 255);
+}
+
+.links-wrapper > .nav-link a {
+    font-family:'Roboto Slab', serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: brown;
+    letter-spacing: 2px;
+}
+/* rigth column styles */
+.navigation-wrapper > .right-column {
+    display: flex;
+    align-items: center;
+}    
+.navigation-wrapper > .right-column > .addres-wrapper {
+    font-family:"roboto slab",sans-serif;
+    text-align: right;
+}
+    
+.navigation-wrapper > .right-column > .addres-wrapper a {
+   color: #858585;
+   text-decoration: none;
+   font-size: 0.9em;
+   transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .addres-wrapper a:hover {
+    color: #cea135;
+
+}
+.navigation-wrapper > .right-column > .contact-icon {
+    margin-left: 15px;
+    font-size: 2em;
+}
+.navigation-wrapper > .right-column > .contact-icon a {
+    color: #cbcbcb;
+    transition: 0.5s;
+}
+.navigation-wrapper > .right-column > .contact-icon a:hover {
+    color: #cea135;
+}
+
